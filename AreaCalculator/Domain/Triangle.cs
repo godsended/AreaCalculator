@@ -41,8 +41,8 @@ public struct Triangle : IShape
 
         //Possible loss of precision
         if (Math.Abs(BCAngle - 90) < 0.001 ||
-            Math.Abs(BCAngle - 90) < 0.001 ||
-            Math.Abs(BCAngle - 90) < 0.001)
+            Math.Abs(ACAngle - 90) < 0.001 ||
+            Math.Abs(ABAngle - 90) < 0.001)
         {
             IsRightTriangle = true;
         }

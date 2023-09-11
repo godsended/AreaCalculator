@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="769e5f3f-4eef-4bf3-bdf3-3b0b38219859" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AreaCalculator.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AreaCalculator/AreaCalculator.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AreaCalculator/AreaCalculator.csproj.DotSettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AreaCalculator/Domain/Circle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AreaCalculator/Domain/Interfaces/IAreaCalculable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AreaCalculator/Domain/Triangle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AreaCalculatorTests/CircleTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SquareCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SquareCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculator.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AreaCalculator.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculator/Domain/Circle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AreaCalculator/Domain/Circle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculator/Domain/Triangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AreaCalculator/Domain/Triangle.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +14,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/275c91e8825d3a2b394ea2c03e30eebf62ed063dedd5d339c6ea4e6b9224053/BooleanAsserts.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AreaCalculator/Domain/Circle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AreaCalculator/Domain/Interfaces/IAreaCalculable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AreaCalculator/Domain/Interfaces/IShape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AreaCalculator/Domain/Triangle.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -36,6 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
@@ -55,15 +55,77 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694451105433</updated>
-      <workItem from="1694451106510" duration="3046000" />
+      <workItem from="1694451106510" duration="6841000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="155" />
+    <coverage-tree-state>
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 95% 4/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 95% 4/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="AreaCalculatorTests 100% 0/24" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 95% 4/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="AreaCalculatorTests 100% 0/24" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="AreaCalculatorTests 100% 0/24" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 95% 4/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="AreaCalculatorTests 100% 0/24" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="AreaCalculatorTests 100% 0/24" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TriangleTests 100% 0/16" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 95% 4/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="AreaCalculator 93% 4/54" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 95% 4/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="AreaCalculator 93% 4/54" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="SquareCalculator 93% 4/54" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 95% 4/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="AreaCalculator 93% 4/54" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="SquareCalculator 93% 4/54" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Triangle 93% 3/41" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 95% 4/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="AreaCalculator 93% 4/54" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="SquareCalculator 93% 4/54" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Circle 92% 1/13" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
+      <select />
+    </coverage-tree-state>
+  </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

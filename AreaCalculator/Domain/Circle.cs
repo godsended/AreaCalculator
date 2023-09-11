@@ -8,7 +8,7 @@ public struct Circle : IShape
     private double? _area = null;
 
     public double Radius { get; private set; }
-
+    
     public Circle(double radius)
     {
         Radius = radius;
